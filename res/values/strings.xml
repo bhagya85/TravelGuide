@@ -1,8 +1,21 @@
 <resources>
 
-    <string name="app_name">TravelGuide</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+      <string name="app_name">TravelGuide</string>
+    <string name="main_title">Android TravelGuide</string>
+     <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TravelGuide</string>  
+    <string name="Search_Label">Search</string> 
+    <string name="Location_Label">Location or Zip code</string> 
+    
+    
+    
+   <!--   <string name ="app_name">TravelGuide</string>
+    <string name="main_title">Android TravelGuide</string>
+    <string name="Location_Label">Location or Zip code</string>
+    <string name="Search">Search</string>
+    <color name="background">#3500ffff</color> -->
+    
+    
+    
 
 </resources>
