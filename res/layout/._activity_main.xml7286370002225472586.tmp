@@ -4,8 +4,6 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-        android:id="@+id/title_screen_layout"
-android:background="@drawable/background"
     tools:context=".MainActivity" >
 
     <TextView
