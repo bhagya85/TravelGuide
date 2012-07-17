@@ -24,19 +24,21 @@ android:background="@drawable/background"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Location or Zip code" />
-    <Spinner
+
+      <Spinner
         android:id="@+id/dates"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
         android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/times" />
+        android:layout_toLeftOf="@+id/times" /> 
+        
     <Spinner
         android:id="@id/times"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentLeft="true" />
     <Button
         android:layout_width="96dp"
         android:layout_height="wrap_content"
