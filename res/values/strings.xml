@@ -6,6 +6,11 @@
     <string name="title_activity_main">TravelGuide</string>  
     <string name="Search_Label">Search</string> 
     <string name="Location_Label">Location or Zip code</string> 
+    <string name="radius_prompt">choose a radius</string>
+    <string-array name="radius_arrays">
+        <item>5 miles</item>
+        <item>10 miles</item>
+    </string-array>
     
     
     

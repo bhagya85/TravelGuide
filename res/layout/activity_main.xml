@@ -1,51 +1,40 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-        android:id="@+id/title_screen_layout"
-android:background="@drawable/background"
-    tools:context=".MainActivity" >
-
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:padding="@dimen/padding_medium"
-       
-        tools:context=".MainActivity" />
-    
-   <!--   android:text="@string/hello_world" -->
-    
-<EditText
-        android:id="@+id/name"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="Location or Zip code" />
-
-      <Spinner
-        android:id="@+id/dates"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/name"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/times" /> 
-        
+        android:padding="@dimen/padding_medium"   
+        tools:context=".MainActivity" />    
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:hint="Location name or Zip code">
+ 
+        <requestFocus />
+ 
+    </EditText>
+ 
     <Spinner
-        android:id="@id/times"
-        android:layout_width="96dp"
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/name"
-        android:layout_alignParentLeft="true" />
+        android:entries="@array/radius_arrays"
+        android:prompt="@string/radius_prompt" 
+        android:text="radius"/>
+ 
+    
+ 
     <Button
-        android:layout_width="96dp"
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/times"
-        android:layout_alignParentRight="true"
-        android:text="Search" />
-    
-    
-
-</RelativeLayout>
+        android:text="Search" /> 
+ 
+</LinearLayout> 
