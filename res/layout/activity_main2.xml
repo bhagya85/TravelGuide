@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/openbook">
+          <TextView
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding_medium" 
+        android:textStyle="italic|bold"  
+        android:typeface="sans"
+        android:textColor="#ff1493"
+        tools:context=".MainActivity" />  
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding_medium" 
+        android:textStyle="normal|bold"  
+        android:typeface="monospace"
+        android:textColor="#0000cd"  
+        tools:context=".MainActivity" />  
+        <TextView
+        android:id="@+id/resultset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding_medium" 
+        android:textStyle="normal|bold"  
+        android:typeface="monospace"
+        android:textColor="#0000cd"  
+        tools:context=".MainActivity" />          
+     <WebView android:id="@+id/myWebView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:shadowColor="#afeeee" />
+
+        
+   
+ 
+</LinearLayout> 
