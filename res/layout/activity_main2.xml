@@ -41,7 +41,8 @@
      <WebView android:id="@+id/myWebView"
          android:layout_width="fill_parent"
          android:layout_height="fill_parent"
-         android:shadowColor="#afeeee" />
+         android:shadowColor="#afeeee"
+         android:background="#87cefa"/>
 
         
    
