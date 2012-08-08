@@ -15,9 +15,9 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
-        android:hint="Location name or Zip code">
+        android:hint="@string/Location_Label">
  
-        <requestFocus />
+        
  
     </EditText>
  
@@ -35,6 +35,6 @@
         android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search" /> 
+        android:text="@string/Search_Label" /> 
  
 </LinearLayout> 
