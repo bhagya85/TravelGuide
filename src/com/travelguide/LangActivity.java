@@ -75,7 +75,7 @@ Locale locale;
           Configuration con = getResources().getConfiguration();
           System.out.println("congr" +con);
           
-           Toast.makeText(LangActivity.this, "Locale " +parent.getItemAtPosition(pos).toString(), Toast.LENGTH_LONG).show();
+           //Toast.makeText(LangActivity.this, "Locale " +parent.getItemAtPosition(pos).toString(), Toast.LENGTH_LONG).show();
          }
         
    public void onNothingSelected(AdapterView<?> arg0) {
