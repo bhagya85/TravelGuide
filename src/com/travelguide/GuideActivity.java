@@ -18,7 +18,7 @@ import android.util.Log;
 import android.webkit.WebView;
 import android.widget.TextView;
 
-public class MainActivity2 extends Activity 
+public class GuideActivity extends Activity 
 {
 	
 	private WebView webview;

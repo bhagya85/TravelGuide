@@ -4,11 +4,11 @@
     <string name="main_title">Android TravelGuide</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">TravelGuide</string>
-    <string name="Search_Label">Search</string>
-    <string name="Location_Label">Location or Zip code</string>
-    <string name="Language">choose a language</string>
+    <string name="Search_Label">búsqueda</string>
+    <string name="Location_Label">Localización o código postal</string>
+    <string name="Language">seleccionar un idioma</string>
    
-    <string name="radius_prompt">choose a radius</string>
+    <string name="radius_prompt">elegir un radio</string>
 
     <string-array name="radius_arrays">
         <item>5</item>
@@ -17,12 +17,13 @@
         <item>20</item>
     </string-array>
 
-  <string name="lang_prompt">choose language</string>
+  <string name="lang_prompt">seleccionar un idioma</string>
        <string-array name="lang_arrays">
            <item></item>
-           <item>English</item>
+           <item>Inglés</item>
            <item>Espanol</item>
-        </string-array>
+            </string-array>
+
     <string name="title_activity_travel">TravelActivity</string>
     <string name="title_activity_guide">GuideActivity</string>
 
