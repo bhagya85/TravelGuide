@@ -44,14 +44,14 @@ public
 
             	  srchplace="https://maps.googleapis.com/maps/api/place/textsearch/xml?query="+"atracciones"+"+en+"+
                           locplace +"&radius=" + Float.toString(meters) +
-                          "&sensor=false&key=AIzaSyCIX1BytGb-CQiASpdE0et05e5SkJl7Q78";
+                          "&sensor=false&key=AIzaSyAtt_UclSXdh99C8e0vFzh09edEENCJrXk";
                }
               else
               {
 
             		srchplace="https://maps.googleapis.com/maps/api/place/textsearch/xml?query="+"attractions"+"+in+"+
                                              locplace +"&radius=" + Float.toString(meters) +
-                                             "&sensor=false&key=AIzaSyCIX1BytGb-CQiASpdE0et05e5SkJl7Q78";
+                                             "&sensor=false&key=AIzaSyAtt_UclSXdh99C8e0vFzh09edEENCJrXk";
               }
               System.out.println("Search places " + srchplace);      
 
