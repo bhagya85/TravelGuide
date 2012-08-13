@@ -59,7 +59,7 @@ Locale locale;
               intent.putExtra("lang",parent.getItemAtPosition(pos).toString());
                startActivity(intent);
              }
-          else if ((parent.getItemAtPosition(pos).toString()).equals("Espanol")||(parent.getItemAtPosition(pos).toString()).equals("Spanish")) {
+          else if ((parent.getItemAtPosition(pos).toString()).equals("Español")||(parent.getItemAtPosition(pos).toString()).equals("Spanish")) {
               Locale locale = new Locale("es");
               
               Locale.setDefault(locale);

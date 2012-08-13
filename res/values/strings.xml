@@ -21,7 +21,7 @@
        <string-array name="lang_arrays">
            <item></item>
            <item>English</item>
-           <item>Espanol</item>
+           <item>Español</item>
         </string-array>
     <string name="title_activity_travel">TravelActivity</string>
     <string name="title_activity_guide">GuideActivity</string>

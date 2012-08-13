@@ -12,6 +12,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
+import com.travelguide.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -31,13 +33,31 @@ public class GuideActivity extends Activity
 	    setContentView(R.layout.activity_main2);
 	    final String TAG = "Activity2";
 	    
-	    TextView t1 = (TextView) findViewById(R.id.thanks);
-	    t1.setText("Thanks for using my App. Please don't forget to leave a review");
+	    
+	    String ln = getIntent().getExtras().getString("tag");
+	    if((ln.equals("Español"))|| (ln.equals("Spanish")))
+        {
+	    	TextView t1 = (TextView) findViewById(R.id.thanks);        
+	        t1.setText("Gracias por usar mi aplicación.");
         
 	    
-	    TextView t2 = (TextView) findViewById(R.id.link);
-	    t2.setText("Visitor locations found within " + getIntent().getExtras().getString("com.example.finalstep.radius") + " miles for " +getIntent().getExtras().getString("com.example.finalstep.location"));
-        String url = getIntent().getExtras().getString("com.example.finalstep.link");
+	        TextView t2 = (TextView) findViewById(R.id.link);
+	         t2.setText("Las ubicaciones de visitantes en el interior " + getIntent().getExtras().getString("com.travelguide.radius") + " millas para " +getIntent().getExtras().getString("com.travelguide.location"));
+              
+        }
+	    else
+	    {
+	    	TextView t1 = (TextView) findViewById(R.id.thanks);	        
+		    t1.setText("Thanks for using my App.");
+	        
+		    
+		    TextView t2 = (TextView) findViewById(R.id.link);
+		    t2.setText("Visitor locations found within " + getIntent().getExtras().getString("com.travelguide.radius") + " miles for " +getIntent().getExtras().getString("com.travelguide.location"));
+	        
+	        
+	    }
+	    
+	    String url = getIntent().getExtras().getString("com.travelguide.link");
         Log.i(TAG, url);
            
         try{        	
@@ -73,6 +93,9 @@ public class GuideActivity extends Activity
         example3 = new TextView[data.getName().size()];
        
         webview = (WebView) findViewById(R.id.myWebView);
+        
+        webview.setBackgroundColor(0);
+        webview.setBackgroundResource(R.drawable.openbook);
        
         String stg1 = new String();
         stg1 = "<html>";
@@ -96,7 +119,7 @@ public class GuideActivity extends Activity
           
         }
         stg1 = stg1 + "</html>";
-        webview.loadData(stg1, "text/html", null);
+        webview.loadDataWithBaseURL (null, stg1, "text/html", "utf-8","about:blank");
         
         }
         catch(Exception e)

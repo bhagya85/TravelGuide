@@ -60,9 +60,10 @@ public
                     
                       
                Intent i= new Intent(TravelActivity.this,GuideActivity.class) ;
-               i.putExtra("com.example.finalstep.link",srchplace);
-               i.putExtra("com.example.finalstep.location", locplace);
-               i.putExtra("com.example.finalstep.radius", radius.getSelectedItem().toString());
+               i.putExtra("com.travelguide.link",srchplace);
+               i.putExtra("com.travelguide.location", locplace);
+               i.putExtra("com.travelguide.radius", radius.getSelectedItem().toString());
+               i.putExtra("tag", lan);
                startActivity(i);
         
              }
