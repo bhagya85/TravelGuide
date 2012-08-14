@@ -82,15 +82,15 @@ public class GuideActivity extends Activity
         Log.i(TAG, "parse complete");        
           
 
-        TextView example1[];
-        TextView example2[];
-        TextView example3[];
+        TextView placename[];
+        TextView placeaddress[];
+        TextView placerating[];
        
         tgxml data;
         data = tgparse.getXMLData();
-        example1 = new TextView[data.getName().size()];
-        example2 = new TextView[data.getName().size()];
-        example3 = new TextView[data.getName().size()];
+        placename = new TextView[data.getName().size()];
+        placeaddress = new TextView[data.getName().size()];
+        placerating = new TextView[data.getName().size()];
        
         webview = (WebView) findViewById(R.id.myWebView);
         
@@ -105,17 +105,24 @@ public class GuideActivity extends Activity
             Log.i(TAG, "Address= "+data.getAddress().get(i));
             Log.i(TAG, "Rating= "+data.getRating().get(i));
            
-            example1[i] = new TextView(this);
-            example1[i].setText("Name= "+data.getName().get(i));
+            placename[i] = new TextView(this);
+            placename[i].setText("Name= "+data.getName().get(i));
             
-            example2[i] = new TextView(this);
-            example2[i].setText("Name= "+data.getAddress().get(i));
+            placeaddress[i] = new TextView(this);
+            placeaddress[i].setText("Address= "+data.getAddress().get(i));
             
-            example3[i] = new TextView(this);
-            example3[i].setText("Name= "+data.getRating().get(i));
+            placerating[i] = new TextView(this);
+            placerating[i].setText("Rating= "+data.getRating().get(i));
             
            
-            stg1 = stg1 + "Name: " + data.getName().get(i) + "<br>" + " Address= "+data.getAddress().get(i) + "<br>" + " Rating= "+data.getRating().get(i) + "<br>" + "<br>";           
+            if((ln.equals("Español"))|| (ln.equals("Spanish")))
+            {
+        	   stg1 = stg1 + "Nombre: " + data.getName().get(i) + "<br>" + " Dirección: "+data.getAddress().get(i) + "<br>" + " clasificación= "+data.getRating().get(i) + "<br>" + "<br>";           
+            }
+    	    else
+    	    {
+    	    	stg1 = stg1 + "Name: " + data.getName().get(i) + "<br>" + " Address: "+data.getAddress().get(i) + "<br>" + " Rating= "+data.getRating().get(i) + "<br>" + "<br>";
+    	    }           
           
         }
         stg1 = stg1 + "</html>";

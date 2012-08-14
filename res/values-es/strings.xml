@@ -8,7 +8,7 @@
     <string name="Location_Label">Localización o código postal</string>
     <string name="Language">seleccionar un idioma</string>
    
-    <string name="radius_prompt">elegir un radio</string>
+    <string name="radius_prompt">elegir un radio en millas</string>
 
     <string-array name="radius_arrays">
         <item>5</item>

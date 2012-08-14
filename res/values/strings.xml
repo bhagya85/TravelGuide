@@ -8,7 +8,7 @@
     <string name="Location_Label">Location or Zip code</string>
     <string name="Language">choose a language</string>
    
-    <string name="radius_prompt">choose a radius</string>
+    <string name="radius_prompt">choose a radius in miles</string>
 
     <string-array name="radius_arrays">
         <item>5</item>
