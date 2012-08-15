@@ -27,8 +27,19 @@ public class tgxml {
       
     }
     public void setRating(String rating) {
-        this.rating.add(rating);
-        Log.i("This is the rating:", rating);
+    	 int i = this.getName().size();
+         if (this.getRating().size() == i)
+         {
+            // If rating size is equal to name size then we already added the default rating to this array element.
+            this.rating.set(i-1,rating);
+         }
+         else
+         {
+         	this.rating.add(i-1,rating);
+         }
+         
+         Log.i("Rating Index", ""+i);
+         Log.i("This is the rating:", rating);
        
     }
 

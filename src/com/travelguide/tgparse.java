@@ -49,7 +49,12 @@ public class tgparse extends DefaultHandler{
          * Sets the values after retrieving the values from the XML tags
          * */
         if (localName.equalsIgnoreCase("name"))
+        {
             data.setName(elementValue);
+            // Rating is not available to all places.
+            // So default it to Rating not available and if we see a rating we will update it later.
+            data.setRating("Rating Not Available");
+        }
         else if (localName.equalsIgnoreCase("formatted_address"))
             data.setAddress(elementValue);
         else if (localName.equalsIgnoreCase("rating"))
