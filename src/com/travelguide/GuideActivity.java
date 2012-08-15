@@ -99,7 +99,7 @@ public class GuideActivity extends Activity
        
         String stg1 = new String();
         stg1 = "<html>";
-        for (int i = 1; i < (data.getName().size()-2); i++) {
+        for (int i = 1; i < (data.getName().size()); i++) {
             Log.i(TAG, " "+i );
             Log.i(TAG, "Name= "+data.getName().get(i));
             Log.i(TAG, "Address= "+data.getAddress().get(i));
