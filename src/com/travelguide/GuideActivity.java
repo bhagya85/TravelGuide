@@ -57,7 +57,7 @@ public class GuideActivity extends Activity
 	
 	private WebView webview;
 
-	/** Called when the activity is first created. */
+	//***** Called when the activity is first created *****
 	@Override
 	public void onCreate(Bundle savedInstanceState) 
 	{

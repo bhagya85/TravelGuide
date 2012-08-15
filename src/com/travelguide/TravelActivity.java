@@ -60,6 +60,7 @@ public
         Button srch=(Button)findViewById(R.id.btnSearch);
         srch.setOnClickListener(new OnClickListener()
         {
+       //***** This method called when search button is clicked *****
 
           public void onClick(View arg0)
             {
@@ -70,7 +71,7 @@ public
               float miles =Float.valueOf(radius.getSelectedItem().toString());
               float meters =  (float) (miles * 1609.344);
               String lan= getIntent().getExtras().getString("lang");
-              if((lan.equals("Espanol"))|| (lan.equals("Spanish")))
+              if((lan.equals("Español"))|| (lan.equals("Spanish")))
               {
 
             	  srchplace="https://maps.googleapis.com/maps/api/place/textsearch/xml?query="+"atracciones"+"+en+"+

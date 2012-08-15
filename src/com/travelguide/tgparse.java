@@ -51,39 +51,33 @@ public class tgparse extends DefaultHandler{
     	tgparse.data = data;
     }
  
-    /**
-     * This will be called when the tags of the XML starts.
-     **/
+    //***** This method will be called when the tags of the XML starts *****
     @Override
     public void startElement(String uri, String localName, String qName,
             Attributes attributes) throws SAXException {
  
         elementOn = true;
  
-       // if (localName.equals("result"))
+       
         if (localName.equals("PlaceSearchResponse"))
         {
             data = new tgxml();
         } 
     }
  
-    /**
-     * This will be called when the tags of the XML end.
-     **/
+    //*****  This method will be called when the tags of the XML end  *****/
     @Override
     public void endElement(String uri, String localName, String qName)
             throws SAXException {
  
         elementOn = false;
  
-        /**
-         * Sets the values after retrieving the values from the XML tags
-         * */
+        //***** Sets the values after retrieving the values from the XML tags *****
         if (localName.equalsIgnoreCase("name"))
         {
             data.setName(elementValue);
-            // Rating is not available to all places.
-            // So default it to Rating not available and if we see a rating we will update it later.
+            //***** Rating is not available to all places *****
+            //***** So default it to Rating not available and if we see a rating we will update it later *****
             data.setRating("Rating Not Available");
         }
         else if (localName.equalsIgnoreCase("formatted_address"))
@@ -92,9 +86,8 @@ public class tgparse extends DefaultHandler{
             data.setRating(elementValue);
     }
  
-    /**
-     * This is called to get the tags value
-     **/
+    //***** This method called to get the tags value in XML *****
+    
     @Override
     public void characters(char[] ch, int start, int length)
             throws SAXException {

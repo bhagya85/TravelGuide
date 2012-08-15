@@ -56,7 +56,7 @@ Bundle langitm;
 Intent intent;
 Locale locale;
 
- /** Called when the activity is first created. */
+ //***** Called when the activity is first created *****
  @Override
  public void onCreate(Bundle savedInstanceState) {
      super.onCreate(savedInstanceState);
@@ -106,8 +106,7 @@ Locale locale;
           Configuration con = getResources().getConfiguration();
           System.out.println("congr" +con);
           
-           //Toast.makeText(LangActivity.this, "Locale " +parent.getItemAtPosition(pos).toString(), Toast.LENGTH_LONG).show();
-         }
+        }
         
    public void onNothingSelected(AdapterView<?> arg0) {
     // TODO Auto-generated method stub
