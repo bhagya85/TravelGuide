@@ -1,26 +1,26 @@
-Following are the instructions to build the application:
+Developer instructions to build the application:
 
 1. The development computer should have the following system requirements:  
 
-JDK 5 or JDK 6 (JRE alone is not sufficient) (http://www.oracle.com/technetwork/java/javase/downloads/index.html)   
+JDK 5 or JDK 6 is mandatory (http://www.oracle.com/technetwork/java/javase/downloads/index.html)   
 
-Eclipse 3.5 (Indigo or Juno) or greater (http://www.eclipse.org/downloads/)   ADT plugin for eclipse
+Eclipse 3.7 or greater (http://www.eclipse.org/downloads/)   ADT and Egit plugin for eclipse.
 
 2. Install SDK platform: 
 
 Select Windows > Android SDK Manager, choose Available Packages in the left panel. 
 
-Click the API level radio Button to display the components available for installation. 
+Click the API level radio Button at the bottom to display the components available for installation. 
 
 Select Tools and SDK Platform Android 2.2, API 8 and click Install Selected. 
 
-3. Create an Android virtual device which is an Android emulator: 
+3. Create an Android virtual device (Android emulator): 
 
 In Eclipse, choose Window > AVD Manager. 
 
 Select Virtual Devices in the left panel. Click New. The Create New AVD dialog appears. 
 
-Type the name of the AVD, such as "myemulator". Choose target as SDK 2.2, Enter the size of your choice for the SD Card (ideally 10 MiB) and click Create AVD.
+Type the name of the AVD (of your choice), such as "myemulator". Choose target as SDK 2.2, Enter the size of your choice for the SD Card (ideally 10 MiB) and click Create AVD.
 
 4. Pull or clone the repository on Github in a folder into your local computer using the following commands:  
 
@@ -30,7 +30,7 @@ or to clone use git clone git@github.com:bhagya85/TravelGuide.git   A folder cal
 
 5. Open eclipse and make the folder your current workspace.
 
-6. Open Windows > Preferences > Make sure the Android SDK and JDK are pointing to the SDK and JDK installed on your computer.
+6. Open Windows > Preferences > The Android SDK and JDK must be pointing to the SDK and JDK installed on your computer.
 
 7. Select File > Import > existing projects > select TravelGuide.
 
