@@ -47,3 +47,25 @@ Copyright(C) 2012 Bhagya Yerabothula and Padmaja Matlaparti
 ### **License**
 
 https://github.com/bhagya85/TravelGuide/blob/master/License
+
+### **References**
+
+
+Google places API
+
+https://developers.google.com/places/documentation/
+
+License - https://developers.google.com/readme/terms, http://www.google.com/intl/en/policies/terms/
+
+
+Google images
+
+http://trust-y0urheart.tumblr.com/post/25703562638
+
+http://www.tourismnorthernrockies.ca/places_liardriver.php
+
+http://tumkurameen.blogspot.com/2012/01/mother-earth-is-worth-every-attempt-to.html
+
+http://www.firstflowersonline.co.uk/shop/index.php?main_page=product_info&cPath=102&products_id=186
+
+http://onlyhdwallpapers.com/high-definition-wallpaper/aaaaa-itt-sailing-high-resolution-desktop-hd-wallpaper-440857/
