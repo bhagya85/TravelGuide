@@ -1,17 +1,9 @@
-Users Steps to install the Android Application through Application APKInstaller
+Easy install steps using the Android Package File (aka APK file):
 
-1.Download application APKInstaller and install by clicking the file called "install.bat"
+1)  Download the Androxplorer File Manager or any File Manager of your preference on your android powered device. (Link to Androxplorer: https://play.google.com/store/apps/details?id=net.adisasta.androxplorer&feature=nav_result#?t=W251bGwsMSwxLDMsIm5ldC5hZGlzYXN0YS5hbmRyb3hwbG9yZXIiXQ.. )
 
-2.Once installed, plug the Android phone to a computer
+2)	Copy the travelguide.apk file from the system to your mobile device. You can copy the file over usb cable or bluetooth or by email&download.
 
-3.Double Click APK file on the computer you want to install the Android phone
+3)	Using the File Manager app on the adroid device, navigate to the copied travelguide APK file.
 
-Steps to install the Android SDK Android Application
-
-1.Download and install the Android SDK and Android programs USB Driver on a computer
-
-2.Change settings on an Android phone to allow installation of applications from other resources. In menu "Settings" in the Android phone select "Application Settings" and enable "Unknown Sources." Then in the menu "Settings" select "SD Card" and "Phone Storage" and activate "Disable Use for USB Storage"
-
-3.Open the Windows Command Prompt and type "adb install path\file.apk".-- eg. Change 'path' with the path that led to the APK file is stored and replace 'file' with APK file name, for example adb install C:\Users\username\workspace\TravelGuide\bin\TravelGuide.apk
-
-4.Now the application is installed on the Android phone ready for use.
+4)	Select the travelguide.apk file and follow the on screen instructions to open and install the application.
