@@ -126,8 +126,8 @@ public class GuideActivity extends Activity
        
         webview = (WebView) findViewById(R.id.myWebView);
         
-        webview.setBackgroundColor(0);
-        webview.setBackgroundResource(R.drawable.openbook);
+    //    webview.setBackgroundColor(0);
+    //    webview.setBackgroundResource(R.drawable.openbook);
        
         String stg1 = new String();
         stg1 = "<html>";

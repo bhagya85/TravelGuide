@@ -48,39 +48,24 @@ Copyright(C) 2012 Bhagya Yerabothula and Padmaja Matlaparti
 
 https://github.com/bhagya85/TravelGuide/blob/master/License
 
-
 ### **References**
 
 
-**Google places API**
+Google places API
 
 https://developers.google.com/places/documentation/
 
-License: https://developers.google.com/readme/terms, http://www.google.com/intl/en/policies/terms/
-
-**Localization**
-
-http://developer.android.com/guide/topics/resources/localization.html
-
-License: http://developer.android.com/license.html
-
-**Parsing**
-
-http://mobile.tutsplus.com/tutorials/android/android-sdk-build-a-simple-sax-parser/
-
-License: http://mobile.tutsplus.com/usage/
+License - https://developers.google.com/readme/terms, http://www.google.com/intl/en/policies/terms/
 
 
+Google images
 
-This library is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by
-the Free Software Foundation; with version 3 of the License.
-  
-This library is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
-for more details.
- 
-You should have received a copy of the GNU General Public License 
-along with this library; if not, write to the Free Software Foundation,
-Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+http://trust-y0urheart.tumblr.com/post/25703562638
+
+http://www.tourismnorthernrockies.ca/places_liardriver.php
+
+http://tumkurameen.blogspot.com/2012/01/mother-earth-is-worth-every-attempt-to.html
+
+http://www.firstflowersonline.co.uk/shop/index.php?main_page=product_info&cPath=102&products_id=186
+
+http://onlyhdwallpapers.com/high-definition-wallpaper/aaaaa-itt-sailing-high-resolution-desktop-hd-wallpaper-440857/
