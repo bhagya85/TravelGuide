@@ -72,18 +72,6 @@ License: http://mobile.tutsplus.com/usage/
 
 
 
-**Google images**
-
-http://trust-y0urheart.tumblr.com/post/25703562638
-
-http://www.tourismnorthernrockies.ca/places_liardriver.php
-
-http://tumkurameen.blogspot.com/2012/01/mother-earth-is-worth-every-attempt-to.html
-
-http://www.firstflowersonline.co.uk/shop/index.php?main_page=product_info&cPath=102&products_id=186
-
-http://onlyhdwallpapers.com/high-definition-wallpaper/aaaaa-itt-sailing-high-resolution-desktop-hd-wallpaper-440857/
-
 This library is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by
 the Free Software Foundation; with version 3 of the License.
